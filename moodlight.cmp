@@ -1,18 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-10-28 BZR 4418)-product date = Do 31 Okt 2013 15:34:32 CET
-
-BeginCmp
-TimeStamp = /4E2744B3;
-Reference = C1;
-ValeurCmp = 0u1;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /4E2744A8;
-Reference = C2;
-ValeurCmp = 0u1;
-IdModule  = SM0603_Capa;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-10-28 BZR 4418)-product date = Sa 02 Nov 2013 18:21:58 CET
 
 BeginCmp
 TimeStamp = /4E25F070;
@@ -25,63 +11,28 @@ BeginCmp
 TimeStamp = /4E25F06B;
 Reference = C5;
 ValeurCmp = 0u1;
-IdModule  = SM0603_Capa;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E25F01C;
 Reference = C6;
 ValeurCmp = 4u7;
-IdModule  = SM0805;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51DED945;
 Reference = C7;
 ValeurCmp = 12pF;
-IdModule  = SM0603_Capa;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /51DED962;
 Reference = C8;
 ValeurCmp = 12pF;
-IdModule  = SM0603_Capa;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F6F87D7;
-Reference = D1;
-ValeurCmp = IMPOLUX_RGB_SMD;
-IdModule  = MADW__impolux_rgb_smd;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F6F88EF;
-Reference = D2;
-ValeurCmp = IMPOLUX_RGB_SMD;
-IdModule  = MADW__impolux_rgb_smd;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F6F8925;
-Reference = D3;
-ValeurCmp = IMPOLUX_RGB_SMD;
-IdModule  = MADW__impolux_rgb_smd;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F6F897C;
-Reference = D4;
-ValeurCmp = IMPOLUX_RGB_SMD;
-IdModule  = MADW__impolux_rgb_smd;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F6F8DFD;
-Reference = ESD1;
-ValeurCmp = ESD_TWO-LINE;
-IdModule  = SOT23EBC;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
