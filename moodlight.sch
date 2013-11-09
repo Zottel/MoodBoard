@@ -31,6 +31,9 @@ LIBS:contrib
 LIBS:valves
 LIBS:Micropendous-32U2-cache
 LIBS:LED_RGB
+LIBS:w_opto
+LIBS:moodlight-cache
+LIBS:moodlight-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
@@ -45,17 +48,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Connection ~ 4650 3500
-Wire Wire Line
-	4650 3800 4650 3500
 Wire Wire Line
 	4850 3600 4850 3500
 Wire Wire Line
 	4300 3600 4850 3600
-Connection ~ 4350 3600
-Wire Wire Line
-	4350 3800 4350 3600
-Connection ~ 4500 4250
 Wire Wire Line
 	8600 2450 8950 2450
 Wire Wire Line
@@ -275,33 +271,16 @@ Wire Wire Line
 Wire Wire Line
 	10450 6650 10450 6700
 Wire Wire Line
-	5150 3500 5150 4250
-Wire Wire Line
-	4500 4350 4500 4200
-Wire Wire Line
-	5150 4250 4500 4250
-Wire Wire Line
 	4750 3500 4300 3500
 $Comp
 L GND #PWR01
 U 1 1 4F6F8E71
-P 4500 4350
-F 0 "#PWR01" H 4500 4350 30  0001 C CNN
-F 1 "GND" H 4500 4280 30  0001 C CNN
-F 2 "" H 4500 4350 60  0001 C CNN
-F 3 "" H 4500 4350 60  0001 C CNN
-	1    4500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L ESD_TWO-LINE ESD1
-U 1 1 4F6F8DFD
-P 4550 4250
-F 0 "ESD1" V 4250 4500 60  0000 C CNN
-F 1 "ESD_TWO-LINE" V 4750 4550 60  0000 C CNN
-F 2 "" H 4550 4250 60  0001 C CNN
-F 3 "" H 4550 4250 60  0001 C CNN
-	1    4550 4250
+P 5150 4200
+F 0 "#PWR01" H 5150 4200 30  0001 C CNN
+F 1 "GND" H 5150 4130 30  0001 C CNN
+F 2 "" H 5150 4200 60  0001 C CNN
+F 3 "" H 5150 4200 60  0001 C CNN
+	1    5150 4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1242,4 +1221,6 @@ Wire Wire Line
 	6100 6800 5850 6800
 Wire Wire Line
 	6100 6900 5850 6900
+Wire Wire Line
+	5150 3500 5150 4200
 $EndSCHEMATC

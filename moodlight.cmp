@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-10-28 BZR 4418)-product date = Sa 02 Nov 2013 18:21:58 CET
+Cmp-Mod V01 Created by CvPcb (2013-10-28 BZR 4418)-product date = Sa 09 Nov 2013 19:25:21 CET
 
 BeginCmp
 TimeStamp = /4E25F070;
@@ -33,6 +33,34 @@ TimeStamp = /51DED962;
 Reference = C8;
 ValeurCmp = 12pF;
 IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6F87D7;
+Reference = D1;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6F88EF;
+Reference = D2;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6F8925;
+Reference = D3;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6F897C;
+Reference = D4;
+ValeurCmp = IMPOLUX_RGB_SMD;
+IdModule  = MADW__impolux_rgb_smd;
 EndCmp
 
 BeginCmp
